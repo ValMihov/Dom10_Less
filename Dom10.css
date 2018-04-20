@@ -1,0 +1,155 @@
+/*---ColorsVariables---*/
+header {
+  color: white;
+  background-color: #181c1f;
+  font-family: Verdana;
+}
+main {
+  color: white;
+  background-color: #181c1f;
+  font-family: Verdana;
+}
+footer {
+  color: white;
+  background-color: #181c1f;
+  font-family: Verdana;
+}
+.meinHeader {
+  position: fixed;
+  width: 1050px;
+  height: 100px;
+  margin: 0px 100px;
+}
+.logo {
+  width: 50px;
+  height: 30px;
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: white;
+}
+li :hover {
+  color: red;
+}
+.shop {
+  background-color: black;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+.video {
+  width: 1047px;
+  height: 600px;
+  margin: 100px 100px 0px 100px;
+}
+.falcon {
+  font-size: 60px;
+  font-family: Verdana;
+  margin: 0px 110px;
+  color: white;
+}
+.text {
+  float: left;
+  width: 400px;
+  color: white;
+}
+.text2 {
+  float: right;
+  width: 400px;
+  color: white;
+}
+.mainImag {
+  width: 250px;
+  height: 2500px;
+  margin: 0px 70px;
+}
+.extraImage1 {
+  position: absolute;
+  left: 660px;
+  top: 1000px;
+}
+.extraImage2 {
+  position: absolute;
+  left: 530px;
+  top: 1750px;
+}
+.textLeft {
+  float: left;
+  width: 400px;
+  color: white;
+  margin: -2000px 0px;
+}
+.textLeft2 {
+  float: left;
+  width: 400px;
+  color: white;
+  margin: -1500px 0px;
+}
+.textLeft3 {
+  float: left;
+  width: 400px;
+  color: white;
+  margin: -1000px 0px;
+}
+.textright {
+  float: right;
+  width: 400px;
+  color: white;
+  margin: -1600px 0px;
+}
+.linkAbout a {
+  color: #3569a4;
+  float: left;
+  margin: -1600px 0px;
+  text-decoration: none;
+}
+.linkAbout a:hover {
+  color: red;
+}
+.table {
+  width: 1050px;
+  background-color: black;
+  margin-left: 100px;
+}
+.table th {
+  color: white;
+  background-color: black;
+}
+.table th td {
+  color: white;
+  background-color: black;
+}
+/*--- Mixin 1---*/
+.footerWhite h1 {
+  background-color: white;
+  background-position: center;
+}
+.footerWhite tr {
+  border: solid white 10px;
+  padding: 20px;
+}
+.footerWhite tr td {
+  background-color: white;
+  background-position: center;
+}
+.footerWhite tr td p {
+  background-color: white;
+  background-position: center;
+}
+.footerWhite tr td a {
+  color: #3569a4;
+}
+.footerWhite tr td a:hover {
+  color: red;
+}
+/*---Mixin 1 End---*/
+/*---ColorManipulation---*/
+.footerTable {
+  padding: 30px 230px;
+  background-color: #000000;
+}
